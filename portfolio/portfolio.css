@@ -1,0 +1,33 @@
+body{
+    background-color: #F5F5F5;
+    font-family: poppins serif;
+}
+.container{
+    max-width: 1024px;
+    margin: auto;
+}
+.header-menu{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header-name{
+    color: #7B8089;
+    font-size: x-large;
+}
+.header-name span{
+    color: #1F8EE7;
+}
+.header-nav{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-size: large;
+}
+.header-nav li:hover{
+  color: #646A74;
+    text-decoration: underline blue 2px;
+    text-underline-offset: 1em;
+}
